@@ -15,6 +15,10 @@ cd go-algorand
 ./scripts/configure_dev.sh
 make install
 
+ls ~
+ls ~/go
+ls ~/go/bin
+
 cp ~/go/bin/algod.exe ../algod.exe
 cp ~/go/bin/diagcfg.exe ../diagcfg.exe
 cp ~/go/bin/goal.exe ../goal.exe
