@@ -25,5 +25,5 @@ jobs:
         with:
           allowUpdates: true
           tag: dev
-          artifacts: "algod.exe,diagcfg.exe,goal.exe,kmd.exe,algokey.exe"
+          artifacts: "algod.exe,diagcfg.exe,goal.exe,kmd.exe,algokey.exe,msgpacktool.exe"
           prerelease: true
