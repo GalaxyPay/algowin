@@ -24,6 +24,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
-          tag: dev
+          tag: v3.25.0-stable
           artifacts: "algod.exe,diagcfg.exe,goal.exe,kmd.exe,algokey.exe,msgpacktool.exe"
-          prerelease: true
