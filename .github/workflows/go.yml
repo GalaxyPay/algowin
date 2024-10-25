@@ -24,5 +24,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
-          tag: fnet
+          tag: fnet3
           artifacts: "algod.exe,goal.exe,kmd.exe"
