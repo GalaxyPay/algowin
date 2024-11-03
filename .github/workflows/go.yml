@@ -1,5 +1,8 @@
-name: MSYS2
-on: [push, workflow_dispatch]
+name: Build
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
   msys2-ucrt64:
@@ -23,6 +26,5 @@ jobs:
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          allowUpdates: true
           tag: v3.26.0-stable
-          artifacts: "algod.exe,diagcfg.exe,goal.exe,kmd.exe,algokey.exe,msgpacktool.exe"
+          artifacts: "algod.exe,goal.exe,kmd.exe,algokey.exe"
