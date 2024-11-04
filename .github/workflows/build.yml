@@ -1,8 +1,9 @@
 name: Build
 on:
-  workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   msys2-ucrt64:
