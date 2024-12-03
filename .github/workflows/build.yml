@@ -27,5 +27,5 @@ jobs:
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          tag: v3.26.0-stable
+          tag: v3.27.0-stable
           artifacts: "algod.exe,goal.exe,kmd.exe,algokey.exe"
